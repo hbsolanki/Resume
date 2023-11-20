@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class DB {
 
     private static Connection getCon()throws Exception{
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/resumes", "root","8160062665");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/resumes", "root","");
     }
     
     //resume(name varchar(50),phone varchar(20),email varhcar(50),github varhcar(50),linkedin(50),skills varchar(10000),education varchar(10000),academicproject varchar(10000),hobbies varchar(10000))
